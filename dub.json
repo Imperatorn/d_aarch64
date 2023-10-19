@@ -21,7 +21,7 @@
 		{
 			"name": "setup",
 			"description": "Setup program for Android development",
-			"sourceFiles": ["d_android.d"],
+			"sourceFiles": ["d_aarch64.d"],
 			"targetType": "executable"
 		}
 	]
