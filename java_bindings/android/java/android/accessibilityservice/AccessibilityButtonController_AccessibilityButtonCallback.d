@@ -1,7 +1,0 @@
-module android.java.android.accessibilityservice.AccessibilityButtonController_AccessibilityButtonCallback;
-public import android.java.android.accessibilityservice.AccessibilityButtonController_AccessibilityButtonCallback_d_interface;
-
-import arsd.jni : ImportExportImpl;
-mixin ImportExportImpl!AccessibilityButtonController_AccessibilityButtonCallback;
-
-import import1 = android.java.java.lang.Class;

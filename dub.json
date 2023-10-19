@@ -7,33 +7,21 @@
 		"d_android:ndk_bindings": "*",
 		"d_android:java_bindings": "*"
 	},
-
 	"subPackages": [
 		{
 			"name": "ndk_bindings",
 			"description": "Bindings for Android NDK",
-			"sourcePaths": ["translated_headers"],
-			"importPaths": ["translated_headers"],
-			"dependencies": {
-				"arsd-official:jni": ">=5.0.2"
-			},
 			"targetType": "library"
 		},
 		{
 			"name": "java_bindings",
 			"description": "Bindings for Android Java classes",
-			"importPaths": ["java_bindings"],
-			"sourceFiles": ["source/hacks.d"],
-			"dflags": ["-i"],
-			"dependencies": {
-				"arsd-official:jni": ">=5.0.2"
-			},
 			"targetType": "sourceLibrary"
 		},
 		{
 			"name": "setup",
 			"description": "Setup program for Android development",
-			"sourceFiles": ["android-setup.d"],
+			"sourceFiles": ["d_android.d"],
 			"targetType": "executable"
 		}
 	]

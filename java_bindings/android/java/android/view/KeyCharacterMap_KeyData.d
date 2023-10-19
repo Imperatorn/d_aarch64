@@ -1,7 +1,0 @@
-module android.java.android.view.KeyCharacterMap_KeyData;
-public import android.java.android.view.KeyCharacterMap_KeyData_d_interface;
-
-import arsd.jni : ImportExportImpl;
-mixin ImportExportImpl!KeyCharacterMap_KeyData;
-
-import import0 = android.java.java.lang.Class;
