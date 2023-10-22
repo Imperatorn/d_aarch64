@@ -1,6 +1,6 @@
 {
 	"license": "Apache-2.0",
 	"name": "d_aarch64",
-	"description": "Setup program for Android development",
+	"description": "Setup program for aarch64 development",
 	"targetType": "executable"
 }
