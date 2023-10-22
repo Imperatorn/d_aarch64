@@ -190,6 +190,7 @@ int main(string[] args)
     "-gcc=C:/Program Files (x86)/Arm GNU Toolchain aarch64-none-linux-gnu/12.3 rel1/bin/aarch64-none-linux-gnu-gcc.exe");
 
   writeln("Now run for example ldc2 -mtriple=aarch64-linux-gnu ./source/app.d -static");
+  writeln("Orldc2 -mtriple=aarch64-linux-gnu ./source/app.d depending on your needs");
 
   writeln("Will now navigate to https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads");
 
