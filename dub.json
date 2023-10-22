@@ -1,28 +1,6 @@
 {
-	"name": "d_android",
-	"targetType": "library",
-	"description": "Helper programs, instructions, and bindings for using D on Android",
 	"license": "Apache-2.0",
-	"dependencies": {
-		"d_android:ndk_bindings": "*",
-		"d_android:java_bindings": "*"
-	},
-	"subPackages": [
-		{
-			"name": "ndk_bindings",
-			"description": "Bindings for Android NDK",
-			"targetType": "library"
-		},
-		{
-			"name": "java_bindings",
-			"description": "Bindings for Android Java classes",
-			"targetType": "sourceLibrary"
-		},
-		{
-			"name": "setup",
-			"description": "Setup program for Android development",
-			"sourceFiles": ["d_aarch64.d"],
-			"targetType": "executable"
-		}
-	]
+	"name": "d_aarch64",
+	"description": "Setup program for Android development",
+	"targetType": "executable"
 }
